@@ -1,0 +1,9 @@
+Index/
+venv/
+venv3/
+mallet-2.0.8.zip
+mallet-2.0.8/
+processed.csv
+smart_scrapy/scrapy.csv
+smart_scrapy/smart.json
+.idea/

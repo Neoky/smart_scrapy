@@ -1,0 +1,6 @@
+whoosh
+spacy
+pandas
+nltk
+numpy
+gensim
