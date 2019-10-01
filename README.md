@@ -2,6 +2,16 @@ This is just some demo code for learning and testing.
 
 Source of code is documented at the top of each source file.
 
+This was just something I whipped together in a weekend and is very rough.
+
+```bash
+virtualenv -p python3 venv
+source venv/bin/activate
+pip install -r requirements.txt
+scrapy crawl Smart
+python main.py
+python whoost_tutorial.py
+```
 ## What does all of this do?
 
 * Scrape data from a website domain.

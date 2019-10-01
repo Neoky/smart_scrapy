@@ -60,4 +60,4 @@ def index_search(dirname, search_fields, search_query):
         print("Search Results: ")
         pprint(results[0:10])
 
-index_search("index", ['content', 'topic_keywords'], u"china")
+index_search("index", ['content', 'topic_keywords'], u"search term")

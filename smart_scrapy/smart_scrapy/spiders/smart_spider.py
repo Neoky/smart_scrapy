@@ -15,12 +15,12 @@ content_comments_extractor = load_pickled_model(
 
 class SmartSpider(CrawlSpider):
     name = "Smart"
-    allowed_domains = ['pbs.org', 'www.pbs.org']
+    allowed_domains = ['']  # Enter your own www.example.com domain
     custom_settings = {
         'DEPTH_LIMIT': 1
     }
     start_urls = [
-        'https://www.pbs.org/newshour/',
+        '',  # Enter you own https://www.example.com url
     ]
 
     def __init__(self):
