@@ -4,6 +4,8 @@ Source of code is documented at the top of each source file.
 
 This was just something I whipped together in a weekend and is very rough.
 
+Go to smart_scrapy/smart_scrapy/spiders/smart_spider.py and add in the allowed_domains and start_urls.
+
 ```bash
 virtualenv -p python3 venv
 source venv/bin/activate
